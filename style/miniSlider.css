@@ -1,0 +1,88 @@
+.slider{
+	overflow:hidden;
+	
+	position:relative;
+
+	height:250px;
+
+}
+
+.slider > .gal{
+	transition:0.5s;
+	position:relative;
+	left:0%;
+
+	//border:1px solid red;
+	width:500%;
+	height:100%;
+}
+
+.slider > .right{
+
+	transition:0.3s;
+	cursor:pointer;
+	background:url("../img/slider1/right.png") rgba(255,255,255,0.9) no-repeat 50% 50%;
+	background-size:70%;
+	
+	width:40px;
+	height:180px;
+	
+	position:absolute;
+	top:50px;
+	right:0;
+}
+
+.slider > .left{
+	transition:0.3s;
+	cursor:pointer;
+	background:url("../img/slider1/left.png") rgba(255,255,255,0.9) no-repeat 50% 50%;
+	background-size:70%;
+	
+	border-right:1px solid #ccc;
+	
+	width:40px;
+	height:180px;
+	
+	position:absolute;
+	top:50px;
+	left:0;	
+}
+
+.slider > .gal > .items{
+	width:150px;
+	height:100%;
+	
+	float:left;
+	text-align:center;
+	direction:rtl;
+}
+.slider > .gal > .items > img{
+	width:65%;
+	height:auto;
+}
+
+
+.slider > .gal > .items > h2{
+	font-size:18px;
+	font-weight:500;
+	color:#333;
+	border-bottom:10px solid #eee;
+	margin:7px 10px;
+	padding-bottom:10px;
+}
+
+.slider > .gal > .items > span{
+	font-size:14px;
+	color:red;
+}
+
+.slider > .header{
+	height:40px;
+	background:rgba(245,245,245,1);
+	direction:rtl;
+	margin-bottom:10px;
+	text-indent:10px;
+	line-height:40px;
+	color:green;
+}
+
